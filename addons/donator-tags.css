@@ -152,16 +152,57 @@
 
 /*Twig*/
 .avatar-1BDn8e[src*="326224389798363136"] + h2::after {
-  background-image: url(https://cdn.discordapp.com/attachments/754395283517079663/763511117409943602/1920px-Pepsi_logo_2014.png);
-  transform: scale(1.3)
+  background-image: url(https://cdn.discordapp.com/attachments/750100651454889984/763523636677967882/cocaine-bag-png-png-collections-cocaine-png-1280_1067.png);
+  transform: scale(2)
 }
 
 .avatar-1BDn8e[src*="326224389798363136"]:hover + h2::after {
-  right: -8px;
-  left: unset;
-  padding: 0;
-  background-color: transparent;
+  background-image: url(https://cdn.discordapp.com/attachments/754395283517079663/763526231550459914/n-GUN-628x314.png);
+  --main-color: rgb(255,192,203);
+  color: #FFB6C1;
+  content: "shuttup";
 }
+
+/*Mid*/
+.avatar-1BDn8e[src*="590634485234794497"] + h2::after {
+  background-image: url(https://cdn.discordapp.com/attachments/754395283517079663/763536905790685214/image0.png);
+  transform: scale(1.9);
+}
+
+.avatar-1BDn8e[src*="590634485234794497"]:hover + h2::after {
+  background-image: url(https://cdn.discordapp.com/attachments/754395283517079663/763533747873906729/unknown.png);
+  --main-color: rgb(58, 77, 109);
+  color: #FFB6C1;
+  content: "Mid Jokes";
+}
+
+/*Jack*/
+.avatar-1BDn8e[src*="282978672711827456"] + h2::after {
+  background-image: url(https://i.imgur.com/UnmfvwA.png);
+  transform: scale(1.8);
+}
+
+.avatar-1BDn8e[src*="282978672711827456"]:hover + h2::after {
+  background-image: url(https://i.imgur.com/cKiZRQA.gif);
+  --main-color: rgb(255,140,0);
+  color: #FF8C00;
+  content: "Jack";
+}
+
+/*Spacey*/
+.avatar-1BDn8e[src*="584513026364014605"] + h2::after {
+  background-image: url(https://cdn.discordapp.com/attachments/745027105443545099/763543722159243314/kisspng-rock-island-armory-1911-series-armscor-m1911-pisto-22-tcm-5b23e44c833251.6373670915290788605.png);
+  transform: scale(1.8);
+}
+
+.avatar-1BDn8e[src*="584513026364014605"]:hover + h2::after {
+  background-image: url(https://cdn.discordapp.com/attachments/745027105443545099/763537200583147530/kisspng-counter-strike-global-offensive-counter-strike-s-knives-5ab79eddb9d173.059968331521983197761.png);
+  --main-color: rgb(25, 25, 112);
+  color: red;
+  content: "knives";
+
+}
+
 /* ============== DONATOR/DEV TAGS ============== */
 .avatar-1BDn8e[src*="250353310698176522"] + h2::after {
   background-image: url(https://monstrousdev.github.io/themes/assets/svgs/moon.svg);
