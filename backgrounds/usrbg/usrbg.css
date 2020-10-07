@@ -1,0 +1,22 @@
+/*Sets default user popout position to center.*/
+
+.userPopout-3XzG_A {
+	--user-popout-position: center;
+}
+
+/* #0000 = UNKNOWN DISCRIMINATOR */
+/*Tropical#4104 and Tropical2#1259*/
+
+[user_by_bdfdb*="254362351170617345"],
+[data-user-id*="254362351170617345"],
+[user_by_bdfdb*="365643222522920960"],
+[data-user-id*="365643222522920960"] {
+	--user-background: url('https://i.imgur.com/qQBk2cR.jpg');
+}
+
+/*Spectra#7698*/
+
+[user_by_bdfdb*="286208664623120384"],
+[data-user-id*="286208664623120384"] {
+	--user-background: url('https://i.imgur.com/BGyfYiv.gif');
+}
