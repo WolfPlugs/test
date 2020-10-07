@@ -16,6 +16,7 @@
 .avatar-1BDn8e[src*="751726950875136031"] + h2::after,
 .avatar-1BDn8e[src*="670550004091322368"] + h2::after,
 .avatar-1BDn8e[src*="250353310698176522"] + h2::after,
+.avatar-1BDn8e[src*="326224389798363136"] + h2::after,
 .avatar-1BDn8e[src*="278516985640517632"] + h2::after{
   content: '';
   color: transparent;
@@ -48,6 +49,7 @@
 .avatar-1BDn8e[src*="751726950875136031"]:hover + h2::after,
 .avatar-1BDn8e[src*="670550004091322368"]:hover + h2::after,
 .avatar-1BDn8e[src*="250353310698176522"]:hover + h2::after,
+.avatar-1BDn8e[src*="326224389798363136"]:hover + h2::after,
 .avatar-1BDn8e[src*="278516985640517632"]:hover + h2::after{
   color: white;
   transform: none;
@@ -75,6 +77,21 @@
 /* My friends and my borders/glow */
   /* mine */
 .contents-2mQqc9 .avatar-1BDn8e[src*="402272736665272320"] + h2::before{
+  content: '';
+  position: absolute;
+  height: 44px;
+  width: 44px;
+  top: 0px;
+  left: -58px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  border-radius: var(--roundness, var(--user-roundness, 50px)) !important;
+  z-index: -1;
+}
+
+.contents-2mQqc9 .avatar-1BDn8e[src*="326224389798363136"] + h2::before{
   content: '';
   position: absolute;
   height: 44px;
