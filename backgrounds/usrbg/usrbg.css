@@ -27,8 +27,14 @@
 	--user-background: url('https://i.imgur.com/H4u8J9R.jpg');
 }
 
-/*Spacey*/
+/*Spacey Boi#5075*/
 [user_by_bdfdb*="584513026364014605"],
 [data-user-id*="584513026364014605"] {
 	--user-background: url('https://i.imgur.com/aplPhJq.gif');
+}
+
+/*Ducks™#6585*/
+[user_by_bdfdb*="419551644410445835"],
+[data-user-id*="419551644410445835"] {
+	--user-background: url('https://media.discordapp.net/attachments/760239711716638790/763601294400421908/image0.gif');
 }
