@@ -24,7 +24,7 @@
 /*Wolfkid*/
 [user_by_bdfdb*="282978672711827456"],
 [data-user-id*="282978672711827456"] {
-	--user-background: url('https://i.imgur.com/H4u8J9R.jpg');
+	--user-background: url('https://i.imgur.com/3dO6cJr.gif');
 }
 
 /*Spacey Boi#5075*/
@@ -37,4 +37,10 @@
 [user_by_bdfdb*="419551644410445835"],
 [data-user-id*="419551644410445835"] {
 	--user-background: url('https://media.discordapp.net/attachments/760239711716638790/763601294400421908/image0.gif');
+}
+
+/*Nobody Special#8340*/
+[user_by_bdfdb*="326224389798363136"],
+[data-user-id*="326224389798363136"] {
+	--user-background: url('https://cdn.discordapp.com/attachments/327834422047145988/763746037474787338/593cec07ac1775c5a6c062aa1c9c7c36.png');
 }
