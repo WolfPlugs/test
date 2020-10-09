@@ -179,17 +179,7 @@
 }
 
 /*Jack*/
-.avatar-1BDn8e[src*="282978672711827456"] + h2::after {
-  background-image: url(https://i.imgur.com/jZcL5zw.png);
-  transform: scale(1.8);
-}
 
-.avatar-1BDn8e[src*="282978672711827456"]:hover + h2::after {
-  background-image: url(https://i.imgur.com/cKiZRQA.gif);
-  --main-color: rgb(255,140,0);
-  color: #FF8C00;
-  content: "Jack";
-}
 
 /*Spacey*/
 .avatar-1BDn8e[src*="584513026364014605"] + h2::after {
