@@ -61,6 +61,7 @@
 
 /* spin in */
 .avatar-1BDn8e[src*="282681883249213440"]:hover + h2::after,
+.avatar-1BDn8e[src*="631871794923700266"]:hover + h2::after,
 .avatar-1BDn8e[src*="395649339134967808"]:hover + h2::after{
   animation: scaleSpin .4s;
 }
