@@ -146,6 +146,31 @@
   box-shadow: 0 0 5px rgba(246, 255, 192, 0.658);
 }
 
+/* Sylver a Really Special One nly for her*/
+.contents-2mQqc9 .avatar-1BDn8e[src*="631871794923700266"] + h2::before{
+  content: '';
+  position: absolute;
+  height: 44px;
+  width: 44px;
+  top: 0px;
+  left: -58px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  border-radius: var(--roundness, var(--user-roundness, 50px)) !important;
+  z-index: -1;
+}
+
+.contents-2mQqc9 .avatar-1BDn8e[src*="631871794923700266"]:hover + h2::before{
+  border-radius: var(--roundness, var(--user-roundness, 50px)) !important;
+}
+
+.contents-2mQqc9 .avatar-1BDn8e[src*="631871794923700266"] + h2::before {
+  background-image: url(https://i.imgur.com/XlilQ4v.gif);
+  box-shadow: 0 0 5px rgba(246, 255, 192, 0.658);
+}
+
 @keyframes eve-glow {
   to {
     filter: drop-shadow(0 0 8px #b71cff)
@@ -246,6 +271,21 @@
   --main-color: rgb(207, 193, 109);
   color: #0062ff;
   content: "어긋";
+}
+
+/* Sylver */
+.avatar-1BDn8e[src*="631871794923700266"] + h2::after {
+  background-image: url(https://i.imgur.com/ChvYngw.png);
+  bottom: -25px;
+  left: -24px;
+  transform: scale(1.3);
+}
+
+.avatar-1BDn8e[src*="631871794923700266"]:hover + h2::after {
+  background-image: url(https://i.imgur.com/C6rdxAM.jpg);
+  --main-color: rgb(58, 77, 109);
+  color: pink;
+  content: "Jack Girlfriend";
 }
 
 
