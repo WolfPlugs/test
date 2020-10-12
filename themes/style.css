@@ -727,7 +727,7 @@ html.theme-light .force-theme.theme-light {
   height: 100%;
   z-index: 1;
   border: 1px solid var(--base-border);
-  border-radius: var(--border-radius);
+  border-radius: 97px;
   box-sizing: border-box;
   pointer-events: none;
   clip-path: polygon(0 0, 100% 0, 100% 94%, 94% 94%, 94% 100%, 0 100%);
