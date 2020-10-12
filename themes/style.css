@@ -16,7 +16,7 @@
   --accent: 3, 102, 214;
   --border-radius: 3px;
   --button-border-radius: 2px;
-  --avatar-radius: calc(var(--border-radius) / 2);
+  --avatar-radius: 72px;
   --server-radius: var(--border-radius);
   --accent-solid: rgba(var(--accent), 1);
   --bd-blue: var(--accent-solid);
@@ -436,7 +436,7 @@ html.theme-light .force-theme.theme-light {
   height: 100%;
   z-index: 1;
   border: 1px solid var(--base-border);
-  border-radius: var(--border-radius);
+  border-radius: 101px;
   box-sizing: border-box;
   pointer-events: none;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 94%, 94% 94%, 94% 100%, 0 100%);
@@ -712,10 +712,10 @@ html.theme-light .force-theme.theme-light {
   border-radius: var(--border-radius) !important;
 }
 .root-SR8cQa .header-QKLPzZ .wrapper-3t9DeA rect {
-      x: 75px;
-      y: 75px;
-      width: 10px;
-      height: 10px;
+      x: 60px;
+      y: 70px;
+      width: 20px;
+      height: 20px;
       stroke-width: 0.35px;
   }
 .root-SR8cQa .header-QKLPzZ .wrapper-3t9DeA::before {
