@@ -9,3 +9,16 @@
  */
 
 @import "https://futuredeveloperz.github.io/test/themes/style.css";
+
+
+/* EDIT THE COLORS HERE */
+:root {
+   --unread-badge: rgba(255,255,255,0.6) !important;
+   --unread-background: rgba(129, 129, 129) !important;
+   --selected-badge: rgb(112, 135, 215) !important;
+   --selected-background: rgba(53, 133, 222) !important;
+   --hovered: rgba(79,84,92,0.16) !important;
+   --active: rgba(79,84,92,0.24) !important;
+}
+
+/* PLACE ANY CUSTOM CODE DOWN HERE */
