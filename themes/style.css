@@ -141,6 +141,149 @@ html.theme-light .force-theme.theme-light {
   --syntax-orange:#ffab70;
   --syntax-green:#56b6c2;
 }
+
+/* WINDOWS TITLE */
+.wordmark-2iDDfm svg {
+  display: none;
+}
+
+.titleBar-AC4pGV:not(.typeMacOS-3EmCyP)::after {
+  content: "JACK'S THEME";
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  color: rgb(170, 170, 170);
+  display: block;
+  height: 16px;
+  width: fit-content;
+  pointer-events: none;
+  font-size: 16px;
+}
+
+.winButtonMinMax-PBQ2gm:hover {
+  background-color: var(--blurple);
+}
+
+.titleBar-AC4pGV {
+  background-color: transparent;
+}
+
+/* NOTIFICATIONS BAR AND ICONS? */
+.cozy-3raOZG .header-23xsNx {
+    display: block;
+    position: relative;
+    line-height: 1.375rem;
+    min-height: 1.375rem;
+    color: var(--text-muted);
+    white-space: break-spaces;
+    word-wrap: pre-wrap;
+}
+
+.clickable-3rdHwn .icon-22AiRD {
+    color: #ffffff;
+}
+
+.modeSelected-1zApJ_:hover .content-3at_AU,
+.privateChannels-1nO12o .clickable-1JJAn8.container-2Pjhx-:hover,
+.privateChannels-1nO12o .clickable-1JJAn8.container-2Pjhx-:hover .muted-3mU76i .container-PNkimc .scroller-2FKFPG .scrollerWrap-2lJEkd .clickable-1JJAn8:hover .layout-2DM8Md,
+.peopleListItem-2nzedh.active-rhSpJJ,
+.peopleListItem-2nzedh:hover,
+.wrapper-1ucjTd:hover .content-3at_AU {
+   border-radius: 0;
+}
+
+.privateChannels-1nO12o .scrollerWrap-2lJEkd .scroller-2FKFPG .selected-aXhQR6.container-2Pjhx-:before,
+.wrapper-1ucjTd.modeSelected-1zApJ_:before,
+.sidebar-CFHs9e .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:before,
+.container-PNkimc .scroller-2FKFPG .scrollerWrap-2lJEkd .clickable-1JJAn8.container-2Pjhx-:active, .privateChannels-1nO12o .selected-aXhQR6.container-2Pjhx- {
+   border-left: 5px solid var(--accent-solid);
+}
+
+.wrapper-1ucjTd.modeSelected-1zApJ_ {
+   background-color: var(--selected-background) !important;
+}
+
+.wrapper-1ucjTd:hover .content-3at_AU {
+   background: none !important;
+}
+
+.iconVisibility-1bOqu7.modeUnread-1zpFdA {
+   background: var(--unread-background);
+}
+
+.iconVisibility-1bOqu7:hover {
+   background-color: var(--background);
+}
+
+.privateChannels-1nO12o .scrollerWrap-2lJEkd .scroller-2FKFPG .selected-aXhQR6.container-2Pjhx-:before {
+   content: ' ';
+   position: absolute;
+   height: 44px;
+   top: 0;
+}
+
+.channel-2QD9_O {
+   border-radius: 0 !important;
+   position: relative;
+   margin-left: 0;
+   max-width: 9999px;
+}
+
+.container-PNkimc .scroller-2FKFPG .scrollerWrap-2lJEkd .clickable-1JJAn8.container-2Pjhx-:active,
+.privateChannels-1nO12o .selected-aXhQR6.container-2Pjhx- {
+   border-radius: 0;
+   background: var(--selected-background) !important;
+}
+
+.privateChannels-1nO12o .selected-aXhQR6 .layout-2DM8Md {
+   margin-left: -2px !important;
+   background: none !important;
+}
+
+.modeSelected-1zApJ_ .content-3at_AU,
+.modeSelected-1zApJ_:hover .content-3at_AU {
+   border-radius: 0 !important;
+   background-color: var(--hovered);
+}
+
+.wrapper-1ucjTd.modeSelected-1zApJ_:before {
+   content: ' ';
+   top: 0;
+   position: absolute;
+}
+
+.unread-3zKkbm,
+.wrapper-1ucjTd.modeSelected-1zApJ_:before {
+   height: 34px;
+}
+
+.unread-3zKkbm {
+   background-color: var(--interactive-active);
+   width: 2px;
+   border-radius: 0;
+   left: 0;
+   top: 0;
+   margin-top: 0;
+}
+
+.iconVisibility-1bOqu7 .content-3at_AU {
+   background: none !important;
+}
+
+.privateChannels-1nO12o .clickable-1JJAn8:hover .layout-2DM8Md {
+   background: none !important;
+}
+
+.privateChannels-1nO12o .clickable-1JJAn8.container-2Pjhx-:hover,
+.privateChannels-1nO12o .clickable-1JJAn8.container-2Pjhx-:hover .muted-3mU76i {
+   background: var(--hovered);
+}
+
+#app-mount .sidebar-2K8pFh [class*='scroller-']::-webkit-scrollbar {
+   display: none;
+}
+
+/* USERS PROFILE MODAL */
 .userPopout-3XzG_A .wrapper-3t9DeA {
   z-index: 1;
 }
@@ -458,8 +601,6 @@ html.theme-light .force-theme.theme-light {
   background: var(--user-background) center/cover no-repeat;
   -webkit-mask: linear-gradient(black, transparent 80%);
 }
-
-/* End of Avatars*/
 
 .root-SR8cQa {
   width: 700px;
