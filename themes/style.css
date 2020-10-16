@@ -168,21 +168,6 @@ html.theme-light .force-theme.theme-light {
   background-color: transparent;
 }
 
-/* NOTIFICATIONS BAR AND ICONS? */
-.cozy-3raOZG .header-23xsNx {
-    display: block;
-    position: relative;
-    line-height: 1.375rem;
-    min-height: 1.375rem;
-    color: var(--text-muted);
-    white-space: break-spaces;
-    word-wrap: pre-wrap;
-}
-
-.clickable-3rdHwn .icon-22AiRD {
-    color: #ffffff;
-}
-
 .modeSelected-1zApJ_:hover .content-3at_AU,
 .privateChannels-1nO12o .clickable-1JJAn8.container-2Pjhx-:hover,
 .privateChannels-1nO12o .clickable-1JJAn8.container-2Pjhx-:hover .muted-3mU76i .container-PNkimc .scroller-2FKFPG .scrollerWrap-2lJEkd .clickable-1JJAn8:hover .layout-2DM8Md,
