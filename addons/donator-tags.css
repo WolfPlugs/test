@@ -283,8 +283,8 @@
 /* Sylver */
 .avatar-1BDn8e[src*="631871794923700266"] + h2::after {
   background-image: url(https://i.imgur.com/ChvYngw.png);
-  bottom: -25px;
-  left: -24px;
+  bottom: 15px;
+  left: -17px;
   transform:rotate(45deg);
 }
 
