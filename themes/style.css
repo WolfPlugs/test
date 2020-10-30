@@ -199,6 +199,30 @@ html.theme-light .force-theme.theme-light {
 
 }
 
+/*hover == false*/
+[class^="toolbar-"]{
+    max-width: 40px;
+    transition: max-width 1.5s;
+    -webkit-transition: max-width 1.5s;
+    -moz-transition: max-width 1.5s;
+    -o-transition: max-width 1.5s;
+    height: 100%;
+}
+[class^="toolbar-"]::before{
+    content: "︙";
+    font-size: 24px;
+    margin: 0 8px;
+}
+/*hover == true*/
+[class^="toolbar-"]:hover{
+    max-width: 100vw;
+}
+[class^="toolbar-"]:hover::before{
+    content: "<";
+    font-size: 24px;
+    margin: 0 8px;
+}
+
 /* HALF OF THIS CODE IS PART OF DINGUS */
 
 .content-98HsJk {
@@ -332,29 +356,7 @@ foreignObject[mask="url(#svg-mask-header-bar-badge)"] {
   padding: 2px 7px 2px 7px;
 }
 
-/*hover == false*/
-[class^="toolbar-"]{
-    max-width: 40px;
-    transition: max-width 1.5s;
-    -webkit-transition: max-width 1.5s;
-    -moz-transition: max-width 1.5s;
-    -o-transition: max-width 1.5s;
-    height: 100%;
-}
-[class^="toolbar-"]::before{
-    content: "︙";
-    font-size: 24px;
-    margin: 0 8px;
-}
-/*hover == true*/
-[class^="toolbar-"]:hover{
-    max-width: 100vw;
-}
-[class^="toolbar-"]:hover::before{
-    content: "<";
-    font-size: 24px;
-    margin: 0 8px;
-}
+
 
 .container-3baos1 .noWrap-3jynv6 {
     width: 0px;
@@ -728,7 +730,7 @@ mask[id="edf65352-894a-44d3-97ee-188638ed873f"] rect {
 
 /* Guild banners */
 
-.header-2o-2hj+.animatedContainer-1pJv5C {
+/*.header-2o-2hj+.animatedContainer-1pJv5C {
   position: fixed !important;
   box-shadow: none;
   opacity: 0 !important;
@@ -749,7 +751,7 @@ mask[id="edf65352-894a-44d3-97ee-188638ed873f"] rect {
 }
 .bannerImage-1jOskm:before {
   display: none;
-}
+}*/
 
 
 /* absolute unit of a selector that fixes banner whitespace*/
