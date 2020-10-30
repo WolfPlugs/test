@@ -164,13 +164,6 @@ html.theme-light .force-theme.theme-light {
   background-color: transparent;
 }
 
-
-/* Hide Gift Button */
-
-.buttons-3JBrkn  > .noFocus-2C7BQj {
-    display: none;
-}
-
 /* HALF OF THIS CODE IS PART OF DINGUS */
 
 .content-98HsJk {
@@ -302,6 +295,43 @@ foreignObject[mask="url(#svg-mask-header-bar-badge)"] {
 .jumpButton-Ia2hRJ {
   background-color: #15171a;
   padding: 2px 7px 2px 7px;
+}
+
+/*hover == false*/
+[class^="toolbar-"]{
+    max-width: 40px;
+    transition: max-width 1.5s;
+    -webkit-transition: max-width 1.5s;
+    -moz-transition: max-width 1.5s;
+    -o-transition: max-width 1.5s;
+    height: 100%;
+}
+[class^="toolbar-"]::before{
+    content: "︙";
+    font-size: 24px;
+    margin: 0 8px;
+}
+/*hover == true*/
+[class^="toolbar-"]:hover{
+    max-width: 100vw;
+}
+[class^="toolbar-"]:hover::before{
+    content: "<";
+    font-size: 24px;
+    margin: 0 8px;
+}
+
+.container-3baos1 .noWrap-3jynv6 {
+    width: 0px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .5s ease-in-out;
+}
+
+.container-3baos1:hover .noWrap-3jynv6 {
+    width: 100px;
+    opacity: 1;
+    pointer-events: all;
 }
 
 /* sidebar */
