@@ -730,18 +730,12 @@ mask[id="edf65352-894a-44d3-97ee-188638ed873f"] rect {
 
 /* Guild banners */
 
-/*.header-2o-2hj+.animatedContainer-1pJv5C {
-  position: fixed !important;
-  box-shadow: none;
-  opacity: 0 !important;
-  transform: translateY(0) !important;
-  transition: opacity 0.2s linear;
-  pointer-events: none;
-  width: 240px;
-  height: 135px;
-  left: 370px;
-  top: 50px;
-  z-index: 3000;
+.header-2o-2hj+.animatedContainer-1pJv5C {
+  position: absolute;
+    height: 135px;
+    top: 0;
+    left: 0;
+}
 }
 .animatedContainer-1pJv5C .bannerImage-1jOskm {
   transform: translateY(0) !important;
@@ -751,7 +745,7 @@ mask[id="edf65352-894a-44d3-97ee-188638ed873f"] rect {
 }
 .bannerImage-1jOskm:before {
   display: none;
-}*/
+}
 
 
 /* absolute unit of a selector that fixes banner whitespace*/
