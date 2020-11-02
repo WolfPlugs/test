@@ -94,7 +94,17 @@
 /* My friends and my borders/glow */
 
 /* Jack */
-.contents-2mQqc9 .avatar-1BDn8e[src*="282978672711827456"] + h2::before{
+.contents-2mQqc9 .avatar-1BDn8e[src*="282978672711827456"] {
+  animation: eve-glow 1s ease-in-out infinite alternate;
+  filter: drop-shadow(0 0 5px #ffffbf);
+  transition: filter 200ms ease-in-out;
+}
+
+.contents-2mQqc9 .avatar-1BDn8e[src*="282978672711827456"]:hover {
+  animation-play-state: paused;
+}
+
+/*.contents-2mQqc9 .avatar-1BDn8e[src*="282978672711827456"] + h2::before{
   content: '';
   position: absolute;
   height: 44px;
@@ -116,7 +126,7 @@
 .contents-2mQqc9 .avatar-1BDn8e[src*="282978672711827456"] + h2::before {
   background-image: url(https://i.imgur.com/m9OwHEe.gif);
   box-shadow: 0 0 5px rgba(246, 255, 192, 0.658);
-}
+}*/
 
 /* Sylver a Really Special One nly for her*/
 .contents-2mQqc9 .avatar-1BDn8e[src*="631871794923700266"] {
