@@ -1,6 +1,9 @@
 /* ======= SPECIAL TAGS ========= */
 /* badges */
 .avatar-1BDn8e[src*="166365757561634816"] + h2::after,
+
+/*✖𝕯𝖊𝖛𝖎𝖑✖#0161*/
+.avatar-1BDn8e[src*="695765437526310945"] + h2::after,
 /* ╲⎝⧹Sunny Bro⧸⎠╱#0379*/
 .avatar-1BDn8e[src*="513220482972254209"] + h2::after,
 
@@ -42,7 +45,8 @@
 
 /* on hover */
 .avatar-1BDn8e[src*="166365757561634816"]:hover + h2::after,
-
+/*✖𝕯𝖊𝖛𝖎𝖑✖#0161*/
+.avatar-1BDn8e[src*="695765437526310945"]:hover + h2::after,
 /* ╲⎝⧹Sunny Bro⧸⎠╱#0379*/
 .avatar-1BDn8e[src*="513220482972254209"]:hover + h2::after,
 
