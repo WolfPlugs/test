@@ -262,6 +262,21 @@
 
 /* PEOPLE WHO DOESNT PAY LIKE ME IM SORRY */
 
+
+/*Devil*/
+.avatar-1BDn8e[src*="695765437526310945"] + h2::after {
+  background-image: url(https://i.imgur.com/wt7AiPA.png);
+  transform: scale(2.5);
+  bottom: -30px;
+  left: -24px;
+}
+
+.avatar-1BDn8e[src*="695765437526310945"]:hover + h2::after {
+  background-image: url(https://cdn.discordapp.com/attachments/736737088573276190/772849531233763348/b3e978302b86e94029649aafdf77162b.jpg);
+  content: "DEVIL";
+}
+
+
 /* ╲⎝⧹Sunny Bro⧸⎠╱#0379 */
 .avatar-1BDn8e[src*="513220482972254209"] + h2::after {
   background-image: url(https://i.imgur.com/eIh3or2.png);
