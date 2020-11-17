@@ -9,6 +9,7 @@
   --server-icon-size: 45px;
   --server-icon-spacing: 8px;
   --server-container-padding: 10px;
+  --cfix-opacity: 0.5;
   --accent: 3, 102, 214;
   --border-radius: 3px;
   --button-border-radius: 2px;
@@ -222,6 +223,20 @@ html.theme-light .force-theme.theme-light {
     font-size: 24px;
     margin: 0 8px;
 }
+
+.base-3dtUhz .sidebar-2K8pFh {
+    background-color: rgba(0,0,0,var(--cfix-opacity));
+}
+
+.sidebar-2K8pFh .container-3w7J-x {
+    background-color: transparent;
+}
+
+.sidebar-2K8pFh .clickable-25tGDB .header-2V-4Sw:hover,
+.sidebar-2K8pFh .selected-31Nl7x .header-2V-4Sw {
+    background-color: rgba(0,0,0,calc(var(--cfix-opacity)/2));
+}
+
 
 /* HALF OF THIS CODE IS PART OF DINGUS */
 
